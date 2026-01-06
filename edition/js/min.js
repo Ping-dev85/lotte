@@ -124,7 +124,7 @@ $(document).ready(function() {
 
 
     $(".right_brand_wrap").click(function() {
-        location.href = '../../signature/main.html';
+        location.href = '/lotte/signature/main.html';
     });
 
     $(".reserve,.menu5").click(function() {
