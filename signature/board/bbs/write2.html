@@ -50,7 +50,7 @@
   style="width:100%"
   target="proc">
 
-  
+
 
   <input type="hidden" name="wr_subject" id="wr_subject" required value="관심고객등록" />
   <input type="hidden" name="wr_content" id="wr_content" required value="관심고객등록" />
@@ -646,8 +646,27 @@
 <!-- } 게시물 작성/수정 끝 -->
 
 
-<iframe id="proc" name="proc" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0"></iframe>
+<iframe
+  name="proc"
+  id="proc"
+  style="display:none;"
+  onload="formSubmitComplete()">
+</iframe>
 
+<script>
+  let submitOnce = false;
+
+  function formSubmitComplete() {
+    // 최초 로딩시 onload 방지
+    if (!submitOnce) return;
+
+    // 입력값 초기화
+    document.getElementById('fwrite').reset();
+
+    // 필요하면 알림
+    alert('등록이 완료되었습니다.');
+  }
+</script>
 
 
 
