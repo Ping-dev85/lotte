@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
+  <title>관심등록 글쓰기 | 중앙공원-롯데캐슬시그니처</title>
+  <link rel="stylesheet" href="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/theme/basic/css/default.css?ver=161020">
+  <!--[if lte IE 8]>
+  <script src="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/js/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/css/common.css"/>
+  <link rel="stylesheet" type="text/css" href="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/css/global.css?ver=171018"/>
+
+
+  <script>
+    // 자바스크립트에서 사용하는 전역변수 선언
+    var g5_url       = "https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board";
+    var g5_bbs_url   = "https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/bbs";
+    var g5_is_member = "";
+    var g5_is_admin  = "";
+    var g5_is_mobile = "";
+    var g5_bo_table  = "guest";
+    var g5_sca       = "";
+    var g5_editor    = "";
+    var g5_cookie_domain = "";
+  </script>
+  <script src="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/js/jquery.min.js"></script>
+  <!-- <script src="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/js/jquery-1.8.3.min.js"></script> -->
+  <script src="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/js/jquery.menu.js?ver=161020"></script>
+  <script src="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/js/common.js?ver=161020"></script>
+  <script src="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/js/wrest.js?ver=161020"></script>
+  <script src="https://spi.maps.daum.net/imap/map_js_init/postcode.v2.js"></script>
+</head>
+<body>
+<!-- skin : guest -->
+
+
+
+<script type="text/javascript" src="https://xn----2c6ey0a24l7xai3tilt8ka14qg6dj8h58lcng.com:443/board/skin/board/guest/js/sojaeji.js"></script>
+
+
+<form
+  name="fwrite"
+  id="fwrite"
+  action="https://script.google.com/macros/s/AKfycbynK0wPU07aadJNBC-JEdXvCqupu73LSdpkIW17JODovzv0LTr9cu2tjfzRTeBxzChlUg/exec"
+  method="post"
+  autocomplete="off"
+  style="width:100%"
+  target="proc">
+
+  
+
+  <input type="hidden" name="wr_subject" id="wr_subject" required value="관심고객등록" />
+  <input type="hidden" name="wr_content" id="wr_content" required value="관심고객등록" />
+  <input type="hidden" name="wr_name" id="wr_name" required value="관심고객" />
+  <input type="hidden" name="wr_password" value="123456789">
+  <input type="hidden" name="wr_1s" id="wr_1s" value="">
+  <input type="hidden" name="wr_2s" id="wr_2s" value="">
+  <input type="hidden" name="wr_3s" id="wr_3s" value="">
+  <!--<input type="hidden" name="wr_4s" id="wr_4s" value="">-->
+
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+    [type="radio"] {
+      vertical-align: middle;
+      appearance: none;
+      border: max(2px, 0.1em) solid #111;
+      border-radius: 50%;
+      width: 1.25em;
+      height: 1.25em;
+      transition: border 0.5s ease-in-out;
+    }
+
+    [type="radio"]:checked {
+      border: 0.4em solid #111;
+    }
+
+    [type="radio"]:focus-visible {
+      outline-offset: max(2px, 0.1em);
+      outline: max(2px, 0.1em) dotted #111;
+    }
+
+    [type="radio"]:hover {
+      box-shadow: 0 0 0 max(4px, 0.2em) lightgray;
+      cursor: pointer;
+    }
+
+    [type="radio"]:disabled {
+      background-color: lightgray;
+      box-shadow: none;
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+
+    [type="radio"]:disabled + span {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+
+
+
+
+    #boardwrite{font-size:14px;font-family: 'Noto Sans KR', sans-serif; padding:0px; margin:0px; font-weight:400; line-height:130%;}
+    #boardwrite .title{font-size:22px;font-family: 'Noto Sans KR', sans-serif; color:#111;font-weight:600; padding:20px 0px; -webkit-text-stroke: 0px #000;}
+    /* #boardwrite .title{font-size:32px;font-family: 'Black Han Sans', sans-serif; color:#111;font-weight:400; padding:20px 0px; -webkit-text-stroke: 0px #000;} */
+    .acount01{font-size:14px;font-family: 'Noto Sans KR', sans-serif; border:1px solid #ddd; width:clac (100% - 40px); height:200px; padding:20px; color:#777; overflow: auto;}
+    .acount01 span{font-weight:bold; color:#333;}
+    #boardwrite .agree01{background:#f9f9f9; width:100%; font-size:16px; padding:20px 0px; color:#111;}
+    #boardwrite .agree01 table {width:100%; blackground:#red;}
+    #boardwrite .agree01 table th{text-align:left; padding-left:20px;}
+    #boardwrite .agree01 table td{text-align:right; padding-right:20px;}
+
+
+
+    #boardwrite label{font-size:16px;font-family: 'Noto Sans KR', sans-serif;font-weight:400;}
+
+    #boardwrite .pyo01{width:100%; padding:0px; margin:0px; font-size:15px;font-family: 'Noto Sans KR', sans-serif; font-weight:400; color:#111;}
+    #boardwrite .pyo01 th{height:60px; border-top:2px solid #111; border-bottom:1px solid #ddd; background:#f9f9f9;}
+    #boardwrite .pyo01 td{text-align:center;height:60px;  border-bottom:1px solid #ddd;}
+
+    ul{float:left;display: inline-block; padding:0px; margin:0px;width:100%; padding:0px; margin:0px; font-size:16px;}
+    li{float:left; height:70px;vertical-align: middle; margin:auto;padding:0px; margin:0px;display: flex; flex-direction: row;align-items: center;}
+    .p_tit{width:10%; border-top:3px solid #111;float:left;}
+    .p_memo{width:40%; border-top:1px solid #ddd;float:left;}
+    .p_tit2{width:10%; border-top:3px solid #111;float:left;}
+    .p_memo2{width:90%; border-top:1px solid #ddd;float:left;}
+    .p_tit3{width:10%; border-top:3px solid #111;float:left;}
+    .p_memo3{width:90%; border-top:1px solid #ddd;float:left;}
+
+
+    input[type="text"]{
+      width: 90%;  /* 원하는 너비 설정 */
+      height: auto;  /* 높이값 초기화 */
+      line-height : normal;  /* line-height 초기화 */
+      padding: .8em .5em; /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+      font-family: inherit;  /* 폰트 상속 */
+      border: none;
+      border-radius: 0;  /* iSO 둥근모서리 제거 */
+      outline-style: none;  /* 포커스시 발생하는 효과 제거를 원한다면 */
+      -webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
+      -moz-appearance: none;
+      appearance: none;
+    }
+
+    select {padding: .8em 1.2em; font-family: inherit;border: none;border-radius: 0px; background:none;border-radius: 0;line-height : normal;outline-style: none; color:#111;}
+    #hp2 ,#hp3{width:35px;}
+    input::placeholder{color:#b6b6b6;}
+
+    .ori {font-size:13px; padding:15px 0px;border-top:1px solid #ddd; width:100%;}
+
+    .myButton { width:120px;background-color:#ffffff;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;border:1px solid #111;display:inline-block;cursor:pointer;color:#111;
+      font-size:18px;padding:22px 30px;text-decoration:none;font-family: 'Noto Sans KR', sans-serif;}
+    .myButton:hover {color:#fff;background:#111;}
+
+    .bbin{display:none;}
+
+
+    @media (max-width:800px)
+    {
+
+      #boardwrite label{font-size:12px;font-family: 'Noto Sans KR', sans-serif;font-weight:400;letter-spacing:-1px; width: 100%; }
+      #boardwrite .agree01{background:#f9f9f9; width:100%; font-size:10px; padding:10px 0px; color:#111; letter-spacing:-1px;}
+      #boardwrite .agree01 table {width:100%; }
+      #boardwrite .agree01 table th{text-align:left; padding-left:10px;}
+      #boardwrite .agree01 table td{text-align:right; padding-right:10px;}
+      #boardwrite .agree01 label{font-size:10px;font-family: 'Noto Sans KR', sans-serif;font-weight:400;letter-spacing:-1px;}
+
+      [type="radio"] { width: 1em;height: 1em;}
+      #boardwrite{font-size:11px;line-height:125%;}
+      #boardwrite .title{font-size:16px; padding:10px 0px; -webkit-text-stroke: 0px #000;}
+      /* #boardwrite .title{font-size:32px;font-family: 'Black Han Sans', sans-serif; color:#111;font-weight:400; padding:20px 0px; -webkit-text-stroke: 0px #000;} */
+      .acount01{font-size:11px;font-family: 'Noto Sans KR', sans-serif; border:1px solid #ddd; width:clac (100% - 40px); height:120px; padding:10px; color:#777; overflow: auto;}
+
+      #boardwrite .pyo01{font-size:11px;}
+      #boardwrite .pyo01 th{height:50px; }
+      #boardwrite .pyo01 td{height:50px; }
+
+      ul{font-size:12px;}
+      li{height:50px;}
+      .p_tit{width:20%;}
+      .p_memo{width:80%;}
+      .p_tit2{width:20%;}
+      .p_memo2{width:80%;}
+      .p_tit3 {width: 20%; }
+      .p_memo3 { width: 80%; flex-wrap: wrap; height: auto; }
+      .p_memo3 label { margin-left: 20px; }
+      .p_memo3 label:last-child { margin-bottom: 12px; }
+
+      li span {display:none;}
+      .ori {font-size:11px; padding:22px 0px;border-top:1px solid #ddd; width:100%;}
+      .myButton { width:100px;font-size:16px;}
+      .bbin{height:54px;width:100px; background:none;display:block;}
+
+    }
+
+  </style>
+
+
+
+
+
+  <div id="boardwrite">
+
+
+
+    <p class="title">개인정보 입력</p>
+    <ul>
+      <li class="p_tit">이름</li>
+      <li class="p_memo">&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="wr_8" id="wr_8" required class="textbox" placeholder="성함을 입력해 주세요."></li><div class="bbin"></div>
+      <li class="p_tit">휴대전화</li>
+      <li class="p_memo">
+        <select name="hp1" id="hp1">
+          <option value="010">010
+          <option value="011">011
+          <option value="016">016
+          <option value="019">019
+          <option value="017">017
+          <option value="018">018
+        </select>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+        <input type="text" name="hp2" id="hp2" class="bowrite_in " maxlength="4" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" placeholder="1234">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+        <input type="text" name="hp3" id="hp3" class="bowrite_in " maxlength="4" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" placeholder="5678">
+      </li>
+    </ul>
+    <ul>
+      <li class="p_tit2">주소</li>
+      <li class="p_memo2">
+        <select name="mb_addr1" id="sido"></select>
+        <select name="mb_addr2" id="gugun"></select>
+        <select name="mb_addr3" id="dong"></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#f49133;">※ 주소를 선택해 주세요!</span>
+      </li>
+    </ul>
+
+    <ul>
+      <li class="p_tit3">관심타입</li>
+      <li class="p_memo3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="wr_link1"  id="wr_4" value="84㎡이상 (구 30평형)" checked>&nbsp;&nbsp;84㎡이상 (구 30평형)</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="wr_link1" value="114㎡이상 (구 40평형)">&nbsp;&nbsp;114㎡이상 (구 40평형)</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="wr_link1" value="135㎡이상 (구 50평형)">&nbsp;&nbsp;135㎡이상 (구 50평형)</label>
+      </li>
+    </ul>
+
+    <ul>
+      <li class="ori">
+        ※ 고객님의 개인정보는 개인정보보호법 및 정보통신망법에 따라 안전하게 보관되며 2년 후 자동 파기됩니다.<br>
+        ※ 고객님의 소중한 정보는 분양 홍보 이외의 목적으로 사용되지 않습니다.<br>
+        ※ 서비스 제공을 위해서 필요한 최소한의 개인정보이므로 동의를 해주셔야 서비스를 이용하실 수 있습니다.<br><br>
+      </li>
+    </ul>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <p class="title">마케팅 목적에 따른 개인정보 수집 및 이용 동의 (필수)</p>
+    <div class="acount01">
+      1. 개인정보의 수집 및 이용목적<br>
+      <span>광주중앙공원 롯데캐슬 시그니처 관심고객에 대한 분양정보 제공 및 이벤트 활용 목적</span><br><br>
+
+      2. 수집하는 개인정보 항목<br>
+      - 수집항목 : 이름, 주소(읍면동까지), 휴대전화번호, 관심타입(평형)<br><br>
+
+      3. 개인정보의 보유 및 이용기간<br>
+      <span>- 보유 및 이용기간 : 개인정보 수집일로부터 2년간 보유 후 지체없이 파기</span><br><br>
+
+      4. 동의를 거부할 권리 및 동의 거부에 따른 불이익<br>
+      - 개인정보 수집 및 동의에 거부할 권리가 있으며, 동의 거부시 분양정보 제공 및 이벤트 참여가 불가능합니다.
+
+    </div>
+
+
+
+    <br><br>
+    <p class="title">개인정보 처리업무 위탁 내역(고지사항)</p>
+    <table class="pyo01">
+      <colgroup>
+        <col style="width:50%">
+        <col style="width:50%">
+      </colgroup>
+      <tr>
+        <th>개인정보 취급 수탁자</th>
+        <th style="border-left:1px solid #ddd;">위탁을 하는 업무의 내용</th>
+      </tr>
+
+      <tr>
+        <td>한국자산신탁, 롯데건설㈜, 빛고을중앙공원개발㈜</td>
+        <td style="border-left:1px solid #ddd;">분양마케팅 관리</td>
+
+      </tr>
+
+      <tr>
+        <td>㈜라임피플</td>
+        <td style="border-left:1px solid #ddd;">분양홈페이지 관리 및 운영</td>
+      </tr>
+
+      <tr>
+        <td>㈜태원씨아이앤디</td>
+        <!--                    <td>㈜밀리언키홀딩스</td>-->
+        <td style="border-left:1px solid #ddd;">분양마케팅 업무대행(안내, 상담, 기타 서비스 등)</td>
+      </tr>
+
+      <!-- 임대 홈페이지 열리면 그때 적용
+              <tr>
+                          <td>㈜태원씨아이앤디</td>
+
+                          <td style="border-left:1px solid #ddd;">일반분양마케팅 업무대행(안내, 상담, 기타 서비스 등)</td>
+                      </tr>
+              <tr>
+                          <td>㈜아르코반</td>
+
+                          <td style="border-left:1px solid #ddd;">임대분양마케팅 업무대행(안내, 상담, 기타 서비스 등)</td>
+                      </tr>
+              -->
+    </table>
+    <br><br>
+
+
+    <div class="agree01">
+      <table>
+        <tr>
+          <th>[필수] 개인정보의 수집 및 이용에 관한 동의에 동의하십니까?</th>
+          <td>
+            <label><input type="radio" name="personal1" value="y">&nbsp;동의</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><input type="radio" name="personal1" value="n">&nbsp;비동의</label></td>
+        </tr>
+      </table>
+
+
+    </div>
+    <br>
+    <div class="agree01">
+      <table>
+        <tr>
+          <th>[필수] 마케팅 활용에 동의하십니까?</th>
+          <td>
+            <label><input type="radio" name="personal2" value="y">&nbsp;동의</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><input type="radio" name="personal2" value="n">&nbsp;비동의</label>
+        </tr>
+      </table>
+
+
+    </div>
+
+
+
+    <p style="padding-top:8px;"></p>
+    <br /><br />
+
+
+
+
+
+
+
+
+
+    <!--
+            <h5 class="attecstitle">■ 고객설문</h5>
+            <table class="quiz">
+              <tr>
+                <th>1. 귀하께서는 A10BL에 660세대 공급 예정인 <span>“운정신도시 제일풍경채 2차 그랑베뉴”</span>에 대해 알고 계십니까?</th>
+            </tr>
+            <tr>
+                <td>
+                  <label><input type="radio" name="wr_1" id="wr_1" value="알고 있다">&nbsp;&nbsp;알고 있다</label><br>
+                <label><input type="radio" name="wr_1" value="모른다">&nbsp;&nbsp;모른다</label><br>
+              </td>
+            </tr>
+            <tr>
+                <th>2. 귀하께서 생각하시는 <span>“운정신도시 제일풍경채 2차 그랑베뉴”</span>의 가장 큰 장점은 무엇입니까? (복수선택 가능)</th>
+            </tr>
+            <tr>
+                <td>
+                  <label><input type="checkbox" name="wr_2"  id="wr_2" value="운정신도시의 미래 가치(약 8만8천세대, 21만명 계획의 대규모 공공택지지구)">&nbsp;&nbsp;운정신도시의 미래 가치(약 8만8천세대, 21만명 계획의 대규모 공공택지지구)</label><br>
+                <label><input type="checkbox" name="wr_2" value="우수한 교육환경(단지 바로 앞 초, 중, 고, 유치원(예정))">&nbsp;&nbsp;우수한 교육환경(단지 바로 앞 초, 중, 고, 유치원(예정))</label><br>
+                <label><input type="checkbox" name="wr_2" value="편리한 생활환경(이마트, 홈플러스, 상업용지(예정), 의료시설(예정))">&nbsp;&nbsp;편리한 생활환경(이마트, 홈플러스, 상업용지(예정), 의료시설(예정))</label><br>
+                <label><input type="checkbox" name="wr_2" value="쾌적한 단지 여건(공원형 아파트, 단지인근 공원(예정) 등)">&nbsp;&nbsp;쾌적한 단지 여건(공원형 아파트, 단지인근 공원(예정) 등)</label><br>
+                <label><input type="checkbox" name="wr_2" value="다양한 개발호재(GTX-A(예정), 제2외곽순환고속도로(예정))">&nbsp;&nbsp;다양한 개발호재(GTX-A(예정), 제2외곽순환고속도로(예정))</label><br>
+              </td>
+            </tr>
+            <tr>
+                <th>3. 귀하께서는 <span>“운정신도시 제일풍경채 2차 그랑베뉴”</span>에 청약하신다면 어느 순위에 해당하십니까?</th>
+            </tr>
+            <tr>
+                <td>
+                  <label><input type="radio" name="wr_3"  id="wr_3" value="특별공급">&nbsp;&nbsp;특별공급</label><br>
+                <label><input type="radio" name="wr_3" value="1순위">&nbsp;&nbsp;1순위</label><br>
+                <label><input type="radio" name="wr_3" value="2순위">&nbsp;&nbsp;2순위</label><br>
+                <label><input type="radio" name="wr_3" value="청약통장 없음">&nbsp;&nbsp;청약통장 없음</label><br>
+              </td>
+            </tr>
+            <tr>
+                <th>4. 귀하께서는 어떤 타입에 관심이 있으십니까? (복수선택 가능)</th>
+            </tr>
+            <tr>
+                <td style="border-bottom:1px solid #ddd;">
+                  <label><input type="checkbox" name="wr_4"  id="wr_4" value="59㎡">&nbsp;&nbsp;59㎡</label><br>
+                <label><input type="checkbox" name="wr_4" value="84㎡">&nbsp;&nbsp;84㎡</label><br>
+                <label><input type="checkbox" name="wr_4" value="104㎡">&nbsp;&nbsp;104㎡</label><br>
+              </td>
+            </tr>
+          </table>
+
+    -->
+
+
+
+
+
+
+    <!--
+    <tr>
+      <th>이메일</th>
+      <td>
+          <input type="text" name="email_id" id="email_id" required class="bowrite_in" style="width:10%;">&nbsp;&nbsp;@&nbsp;&nbsp;
+          <input type="text" name="email_domain" id="email_domain" required class="bowrite_in" style="width:10%;">
+        <select name="email" onclick="setEmailDomain(this.value);return false;">
+          <option value="직접입력">직접입력
+          <option value="gmail.com">gmail.com
+          <option value="naver.com">naver.com
+          <option value="daum.net">daum.net
+          <option value="hanmail.net">hanmail.net
+          <option value="hotmail.com">hotmail.com
+          <option value="icloud.com">icloud.com
+          <option value="yahoo.com">yahoo.com
+        </select>
+        <input type="hidden" name="wr_email" id="wr_email" value="">
+
+      </td>
+    </tr>
+
+-->
+
+
+
+    <script type="text/javascript">
+      new sojaeji('sido', 'gugun', 'dong');
+    </script>
+
+
+
+    <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<div class="board_btn">
+      <ul class="bobtn_center">
+        <li><a href="#" onclick="return fwrite_submit(document.fwrite);">등록하기</a></li>
+        <li><a href="write.php?bo_table=guest">다시쓰기</a></li>
+      </ul>
+    </div>
+        -->
+
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="100%" align="center" valign="top" style="padding-top:30px;">
+          <a href="#" onclick="return fwrite_submit(document.fwrite);"><div class="myButton">등록하기</div></a><input type="hidden" id="btn_submit">
+          <!--<a href="write.php?bo_table=guest"><div class="myButton">취소</div></a></td>-->
+      </tr>
+    </table>
+
+
+
+
+  </div>
+</form>
+
+
+<script>
+  function fwrite_submit(f)
+  {
+
+
+    if($(':radio[name="personal1"]:checked').val() != "y")
+    {
+      alert("개인정보 수집 및 이용에 관한 안내사항에 동의해 주셔야 관심고객등록이 가능합니다.");
+      return;
+    }
+
+    if($(':radio[name="personal2"]:checked').val() != "y")
+    {
+      alert("개인정보 취급 위탁동의사항에 동의해 주셔야 관심고객등록이 가능합니다.");
+      return;
+    }
+    /*
+    //관심타입 start
+    if($('input:checkbox[name="wr_3"]:checked').length==0){
+      alert("관심구역을 입력하세요!");
+      return;
+    }
+    */
+
+    var wr_1 = $(":input:radio[name=wr_1]:checked").val();
+    $("#wr_2s").val("");
+    var wr_2s = "";
+    $('input:checkbox[name="wr_2"]').each(function() {
+      if(this.checked){//checked 처리된 항목의 값
+        if(wr_2s !=""){
+          wr_2s = wr_2s+"<br>";
+        }
+        wr_2s = wr_2s+this.value;
+      }
+    });
+    $("#wr_2s").val(wr_2s);
+    var wr_2 = wr_2s;
+
+    var wr_3 = $(":input:radio[name=wr_3]:checked").val();
+
+//$("#wr_4s").val("");
+//var wr_4s = "";
+//$('input:checkbox[name="wr_4"]').each(function() {
+//	if(this.checked){//checked 처리된 항목의 값
+//		if(wr_4s !=""){
+//			wr_4s = wr_4s+"<br>";
+//		}
+//		wr_4s = wr_4s+this.value;
+//	 }
+// });
+// $("#wr_4s").val(wr_4s);
+//  var wr_4 = wr_4s;
+
+//alert(wr_1 +"/"+wr_2 +"/"+wr_3 +"/"+wr_4);
+
+
+    //if (wr_1 == undefined || wr_1==""){
+    //	alert("문항 1번의 답변을 선택하세요.");
+    //	$("#wr_1").focus()
+    //	return false;
+    //}
+    //if (wr_2 == undefined || wr_2==false || wr_2==""){
+    //	alert("문항 2번의 답변을 선택하세요.");
+    //	$("#wr_2").focus()
+    //	return false;
+    //}
+    //if (wr_3 == undefined || wr_3==""){
+    //	alert("문항 3번의 답변을 선택하세요.");
+    //	$("#wr_3").focus()
+    //	return false;
+    //}
+    //if (wr_4 == undefined || wr_4==false || wr_4==""){
+    //	alert("문항 4번의 답변을 선택하세요.");
+    //	$("#wr_4").focus()
+    //	return false;
+    //}
+
+
+
+    if ($.trim($("#wr_8").val()) == ""){
+      alert("이름을 입력하세요.");
+      $("#wr_8").focus()
+      return false;
+    }
+
+    if ($.trim($("#hp2").val()) == "" ){
+      alert("휴대폰번호를 입력하세요.");
+      $("#hp2").focus()
+      return false;
+    }
+
+    if ($.trim($("#hp3").val()) == ""){
+      alert("휴대폰번호를 입력하세요.");
+      $("#hp3").focus()
+      return false;
+    }
+
+
+    if ($.trim($("#sido").val()) == "" || $.trim($("#sido").val()) == "도시"){
+      alert("주소를 선택하세요.");
+      $("#sido").focus()
+      return false;
+    }
+
+    if ($.trim($("#gugun").val()) == "" || $.trim($("#gugun").val()) == "시/구/군"){
+      alert("주소를 선택하세요.");
+      $("#gugun").focus()
+      return false;
+    }
+
+
+    if ($.trim($("#dong").val()) == "" || $.trim($("#dong").val()) == "읍/면/동"){
+      alert("주소를 선택하세요.");
+      $("#dong").focus()
+      return false;
+    }
+
+    var email_rule =  /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+    var email_id =$("#email_id").val();
+    var email_domain =$("#email_domain").val();
+    var mail ="";
+
+
+    if(!email_id){
+      //alert("이메일을 입력해주세요");
+      //$("#email_id").focus();
+      //return false;
+    }
+    if(!email_domain){
+      //alert("도메인을 입력해주세요");
+      //$("#email_domain").focus();
+      //return false;
+    }
+
+    mail = email_id+"@"+email_domain;
+    if(!email_rule.test(mail)){
+      //alert("이메일을 형식에 맞게 입력해주세요.");
+      //return false;
+    }
+
+
+    $("#wr_email").val(mail);
+
+
+
+
+
+
+
+
+
+    f.submit();
+    return true;
+  }
+
+
+  function setEmailDomain(domain){
+    $("#email_domain").val(domain);
+  }
+
+
+</script>
+
+<!-- } 게시물 작성/수정 끝 -->
+
+
+<iframe id="proc" name="proc" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0"></iframe>
+
+
+
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+  $(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+      $(this).css("z-index", count);
+      $(this).css("position", "relative");
+      count = count - 1;
+    });
+  });
+</script>
+<![endif]-->
+
+</body>
+</html>
